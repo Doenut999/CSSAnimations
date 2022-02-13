@@ -1,0 +1,14 @@
+.ya {
+  width: 5vw;
+  height: 5vh;
+  margin: 100px;
+  background-color: palevioletred;
+  transition-property: width, height, transform, background-color;
+  transition: transform 1.5s, background-color 1s;
+}
+
+.ya:hover {
+  transform: scale(2);
+  background-color: darkturquoise;
+
+}
